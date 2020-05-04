@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+    <title>Đếm ngược thời gian thi</title>
+
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="title">Đếm Thời Gian Thi</div>
+            <div class="header">
+                <div class="input">
+                    <div class="input_question">Vui lòng nhập số câu hỏi?</div>
+                    <div  class="input_question">Vui nhập số thời gian thi?</div>
+                </div>
+                <div class="input">
+                    <div class="input_value">
+                        <input  id="numberQuestion" value="164" type="text" class="input_value-number" placeholder="nhập số câu hỏi">
+                       
+                    </div>
+                    <div class="input_value">
+                        <input id="numberTime" value="60" type="text" class="input_value-number" placeholder="Tính bằng phút"> 
+                    </div>
+                </div>
+            </div>
+            <div class="caculator">
+                <div class="content">
+                    Thời gian thi:  <br>
+                    <span class="content-time" id="time-start"></span>
+                </div>
+                <div class="content">
+                    Câu hỏi số: <br>
+                    <span class="content-question" id="question-start">1</span>
+                </div>
+            </div>
+            <div class="control">
+                <button id="btn-start" class="btn-start">Bắt đầu</button>
+                <button id="btn-reset" class="btn-reset">Đặt lại</button>
+            </div>
+        </div>
+    </div>
+        <script src="./caculator.js"></script>
+</body>
+</html>

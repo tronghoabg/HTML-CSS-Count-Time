@@ -1,0 +1,62 @@
+.app {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+}
+.container {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.caculator {   
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+.content {
+    background-color: #EDEEEF;
+    color: black;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.content-time {
+    font-size: 70px;
+
+}
+.content-question {
+    font-size: 70px;
+}
+.control {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-start {
+    background-color: #56B855;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.btn-reset {
+   background-color: #FF863D;
+   padding: 5px 20px;
+   border-radius: 5px;
+   font-weight: 500;
+   font-size: 15px;
+}
