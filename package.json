@@ -1,0 +1,14 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "count time thi!",
+  "main": "caculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
